@@ -12,9 +12,10 @@ public class MapMain {
         userMap.put("大阪", "名物はたこ焼きです。");
 
         System.out.println(userMap.get("大阪"));
+        System.out.println(userMap.get("香川"));
 
         try {
-            System.out.println(userMap.get("東京"));
+            userMap.get("東京");
             {
                 throw new Exception();
             }
